@@ -11,7 +11,7 @@ export default function ContactSection() {
     ];
 
     return (
-        <section className="relative py-16 px-6 md:px-12 lg:px-24 bg-gradient-to-b from-black to-gray-900 text-white">
+        <section className="relative py-16 px-6 md:px-12 lg:px-24 bg-gradient-to-b from-black to-gray-900 text-white" id="contact">
             <motion.h2
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
