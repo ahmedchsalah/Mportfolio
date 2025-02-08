@@ -20,16 +20,16 @@ export default function ContactSection() {
             >
                 Get in Touch
             </motion.h2>
-            <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 max-w-2xl mx-auto px-4 justify-items-center">
                 {socialLinks.map((link, index) => (
                     <a
                         key={index}
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group p-4 rounded-full bg-gray-800 hover:bg-white transition-all duration-300 flex items-center justify-center shadow-lg"
+                        className="group p-4 rounded-full bg-gray-800 hover:bg-white transition-all duration-300 flex items-center justify-center shadow-lg w-16 h-16"
                     >
-                        <div className="w-10 h-10 flex items-center justify-center">
+                        <div className="w-8 h-8 flex items-center justify-center">
                             {link.icon}
                         </div>
                     </a>

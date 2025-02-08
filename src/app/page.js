@@ -44,7 +44,7 @@ export default function Home() {
                                 <img
                                     src="/ahmed.png"
                                     alt="Ahmed"
-                                    className="w-full h-full object-contain rounded-lg border-4 border-gradient-to-r from-purple-500 via-violet-500 to-pink-500 shadow-lg"
+                                    className="w-full h-full object-contain rounded-full border-4 border-gradient-to-r from-purple-500 via-violet-500 to-pink-500 shadow-lg"
                                 />
                             </div>
                         </div>
