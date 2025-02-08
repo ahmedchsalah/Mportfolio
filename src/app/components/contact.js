@@ -20,8 +20,7 @@ export default function ContactSection() {
             >
                 Get in Touch
             </motion.h2>
-
-            <div className="flex justify-center space-x-6">
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
                 {socialLinks.map((link, index) => (
                     <a
                         key={index}
